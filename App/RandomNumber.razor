@@ -1,0 +1,15 @@
+﻿@page "/random-number"
+@layout EmptyLayout
+
+@code {
+    private int randomNumber = 0;
+    protected override async Task OnInitializedAsync()
+    {
+        Random rnd = new Random();
+        randomNumber = rnd.Next();
+    }
+}
+
+<h3>@randomNumber</h3>
+
+

@@ -1,0 +1,39 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = HtmxDotnet
+build_property.RootNamespace = HtmxDotnet
+build_property.ProjectDir = c:\Github\HtmxDotnet\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = c:\Github\HtmxDotnet
+build_property._RazorSourceGeneratorDebug = 
+
+[c:/Github/HtmxDotnet/App/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwXEhvbWUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Github/HtmxDotnet/App/RandomNumber.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwXFJhbmRvbU51bWJlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Github/HtmxDotnet/Layout/EmptyLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XEVtcHR5TGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Github/HtmxDotnet/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Github/HtmxDotnet/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 

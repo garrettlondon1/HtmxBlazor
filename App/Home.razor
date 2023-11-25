@@ -1,0 +1,22 @@
+﻿@page "/"
+@layout MainLayout
+
+<PageTitle>Home</PageTitle>
+
+<div class="space-y-4">
+	<h1 class="text-3xl font-bold">
+		Welcome to the contact manager
+	</h1>
+	<p>This is a demo on how to use Minimal APIs + Razor Components + HTMX to create dynamic server side rendered apps.</p>
+	<a href="/contacts" class="text-blue-500 hover:underline">Explore the crud example</a>
+
+	<div hx-get="/random-number" hx-trigger="every 2s" hx-target="#random-number">
+		<div id="random-number">
+			<RandomNumber />
+		</div>
+	</div>
+
+	<p>
+		HTMX calls <span class="font-medium">/random-number</span> every 2s and replaces the html with the html returned by the endpoint.
+	</p>
+</div>
