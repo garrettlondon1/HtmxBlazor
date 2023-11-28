@@ -1,4 +1,4 @@
-using HtmxDotnet.App;
+using HtmxDotnet;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,7 +17,8 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+app.UseRouting();
 app.UseAntiforgery();
-app.MapRazorComponents<Home>();
+app.MapRazorComponents<App>();
 
 app.Run();
