@@ -5,7 +5,6 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorComponents();
 builder.Services.AddAntiforgery();
-builder.Services.AddSingleton<Database>();
 
 var app = builder.Build();
 
@@ -20,7 +19,5 @@ app.UseHttpsRedirection();
 app.UseRouting();
 app.UseAntiforgery();
 app.MapRazorComponents<App>();
-
-app.MapAnnotationEndpoints();
 
 app.Run();
